@@ -1,28 +1,15 @@
 {
-  "name": "johnnys_api",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.22"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JohnBidwellB/johnnys_api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JohnBidwellB/johnnys_api/issues"
-  },
-  "homepage": "https://github.com/JohnBidwellB/johnnys_api#readme",
-  "description": ""
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
 }
