@@ -34,7 +34,7 @@ db.mongoose
 
 // endpoints
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Johnny's api" });
+  res.status(200).json({ message: "Hola, estás navegando en un endpoint web con TLS1.3 presente :)" });
 });
 
 require("./routes/auth.routes")(app);
